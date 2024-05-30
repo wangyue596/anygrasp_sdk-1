@@ -100,5 +100,5 @@ pip install numpy==1.21
 根据仓库中的**issues**:运行时不加 --debug 默认不返回点云
 
 ```
-CUDA_VISIBLE_DEVICES=0 python demo.py --checkpoint_path logs/checkpoint_detection.tar --debug (--debug前面记得加空格）
+CUDA_VISIBLE_DEVICES=0 python demo.py --checkpoint_path logs/checkpoint_detection.tar --debug # --debug前面记得加空格
 ```
